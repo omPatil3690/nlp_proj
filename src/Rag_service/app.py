@@ -14,8 +14,13 @@ st.set_page_config(page_title="RAG Search Interface", layout="wide")
 if "user_api_key" not in st.session_state:
     st.session_state.user_api_key = ""
 
-st.title("📘 RAG-based Question Answering System")
-st.caption("Get questions from your previous year papers course PDFs or any uploaded new papers")
+st.title("🧠 Hybrid Search RAG System")
+st.markdown("""
+<div style='font-size: 16px; color: #888;'>
+LLM-powered document Q&A using vector + keyword retrieval
+</div>
+""", unsafe_allow_html=True)
+st.caption("Ask questions from your document collection. The system retrieves relevant context and generates answers using Google Gemini API.")
 
 # ----------------------------
 # API Key Section at Top
