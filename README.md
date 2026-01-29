@@ -87,6 +87,22 @@ User Gets Answer + Source Attribution
 
 ---
 
+## 📸 Screenshots & Demo
+
+### Application Interface
+![App Interface - Main Screen](./images/app-interface.png)
+*Main RAG system interface with API key input and query section*
+
+### PDF Upload & Processing
+![PDF Upload - Data Ingestion](./images/pdf-upload.png)
+*Uploading and processing PDF documents into the knowledge base*
+
+### Search Results & AI Response
+![Search Results - Answer Generation](./images/search-results.png)
+*Hybrid search results with AI-generated contextual answer and source attribution*
+
+---
+
 ## 🚀 Project Setup
 
 ### Prerequisites
