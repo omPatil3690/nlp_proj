@@ -1,0 +1,740 @@
+{
+  "0": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_A",
+    "question_text": "Consider two hosts X and Y connected by a single direct link of rate 10⁶ bits/sec. The distance between the two hosts is 10,000 km and the propagation speed along the link is 2 x 10⁸ m/sec. Host X sends a file of 50,000 bytes as one large message to host Y continuously. Let the transmission and propagation delays be p milliseconds and q milliseconds respectively, then find the value of p & q?",
+    "id": 0
+  },
+  "1": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_A",
+    "question_text": "Assume the following scenario: Data: 1101011011 ; Generator Polynomial: 10011. An error occurs in the transmission at positions 3, 7, and 10 (counting from the left, starting from 1). Then find the following: The CRC codeword.",
+    "id": 1
+  },
+  "2": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_B",
+    "question_text": "The received codeword after errors are introduced.",
+    "id": 2
+  },
+  "3": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_C",
+    "question_text": "Whether the error is detectable using the given generator polynomial.",
+    "id": 3
+  },
+  "4": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_A",
+    "question_text": "You are a network administrator tasked with diagnosing a network issue. During your analysis, you come across the following situations involving various network components and tasks. Your task is to identify the OSI layer primarily responsible for each scenario and briefly explain why. Situation 1: A user reports that they are unable to access a website using its domain name, but they can access it using the IP address directly. Situation 2: A network switch is managing the flow of data between devices on the same local network but is failing to direct the traffic correctly. Situation 3: A large file transfer between two servers on different networks fails halfway through. You suspect an issue with how the data is being segmented and reassembled.",
+    "id": 4
+  },
+  "5": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_A",
+    "question_text": "A digital communication system transmits the following bit sequence at a data rate of 1 Mbps: 11010110010011. Given the following encoding techniques, calculate the bandwidth required for each and draw the waveform: (Assume bandwidth for Unipolar NRZ and Polar RZ encoding is directly proportional to the bit rate and differential Manchester encoding requires twice the bandwidth of the bit rate). Unipolar NRZ (Non-Return-to-Zero)",
+    "id": 5
+  },
+  "6": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_B",
+    "question_text": "Polar RZ (Return-to-Zero)",
+    "id": 6
+  },
+  "7": {
+    "date_of_exam": "28/08/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_C",
+    "question_text": "Differential Manchester Encoding",
+    "id": 7
+  },
+  "8": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q1_A",
+    "question_text": "What do you think are the key usability goals and user experience goals for i. Cast to TV Feature ii. PayTM",
+    "id": 8
+  },
+  "9": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q2_A",
+    "question_text": "The concept of “Digital Wellbeing” in today's smartphones lets user see a complete picture of his/her digital habits and enables him to disconnect when they want to. Briefly analyze the usability principles of Digital Wellbeing",
+    "id": 9
+  },
+  "10": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q3_A",
+    "question_text": "An electronic personal calendar found on a personal organizer or handheld computer i. Describe the conceptual models that underlie the above design. ii. What is the main kind of activity and object they are based on? iii. How do they differ from the equivalent physical artifacts? What new functionality has been provided? iv. What interface metaphors have been used?",
+    "id": 10
+  },
+  "11": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q4_A",
+    "question_text": "When you design with external representations in mind, you will create truly user-centered products that support your user's mental capacity throughout various user flows of your product. Based on this statement, analyze how the external representation of \"Using Laptop\" has affected users' mental cognition of the user.",
+    "id": 11
+  },
+  "12": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q1_A",
+    "question_text": "What do you think are the key usability goals and user experience goals for i. Cast to TV Feature ii. PayTM",
+    "id": 12
+  },
+  "13": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q2_A",
+    "question_text": "The concept of \"Digital Wellbeing\" in today's smartphones lets user see a complete picture of his/her digital habits and enables him to disconnect when they want to. Briefly analyze the usability principles of Digital Wellbeing",
+    "id": 13
+  },
+  "14": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q3_A",
+    "question_text": "An electronic personal calendar found on a personal organizer or handheld computer i. Describe the conceptual models that underlie the above design. ii. What is the main kind of activity and object they are based on? iii. How do they differ from the equivalent physical artifacts? What new functionality has been provided? iv. What interface metaphors have been used?",
+    "id": 14
+  },
+  "15": {
+    "date_of_exam": "07/02/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL432",
+    "subject_name": "Human Computer Interaction",
+    "question_id": "Q4_A",
+    "question_text": "When you design with external representations in mind, you will create truly user-centered products that support your user's mental capacity throughout various user flows of your product. Based on this statement, analyze how the external representation of \"Using Laptop\" has affected users' mental cognition of the user.",
+    "id": 15
+  },
+  "16": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q1_A",
+    "question_text": "Compare the effects of\n    i. Average filter and Gaussian filter on an image\n    ii. Laplacian filter and Laplacian of Gaussian filter on an image",
+    "id": 16
+  },
+  "17": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q2_A",
+    "question_text": "Consider the following 5x5 binary image:\n    [ 1 1 0 0 0 ]\n    [ 1 1 1 0 0 ]\n    [ 0 1 1 1 0 ]\n    [ 0 0 1 1 1 ]\n    [ 0 0 0 1 1 ]\nPerform the erosion operation on the image using a 3x3 square structuring\nelement of ones.",
+    "id": 17
+  },
+  "18": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q3_A",
+    "question_text": "i. How do the contrast stretching and gray level transformation processes\n        enhance the image?\n    ii. Suppose an averaging mask is applied to input images to reduce noise,\n        and then a Laplacian mask is applied to enhance small details. Would\n        the result be the same if the order of these operations were reversed?",
+    "id": 18
+  },
+  "19": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q4_A",
+    "question_text": "Determine the first derivative of image enhancement on following 3x3\ngrayscale image\n\n    [150 155 160]\n    [158 162 165]\n    [160 168 170]\n\n    Based on the calculated gradient magnitude and direction,\n    i. What changes would you expect in the pixel intensity values after\n        applying an edge enhancement filter?\n    ii. Which direction would the gradient enhancement affect more\n        (horizontal or vertical)?",
+    "id": 19
+  },
+  "20": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_A",
+    "question_text": "Explain the concept of throughput and latency in computer networks. How do these metrics impact network performance?",
+    "id": 20
+  },
+  "21": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_B",
+    "question_text": "Differentiate between connection-oriented and connectionless services. Provide examples of protocols that use each type of service.",
+    "id": 21
+  },
+  "22": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_C",
+    "question_text": "Describe the main functions of the Data Link Layer. How does it ensure reliable data transfer over a physical link?",
+    "id": 22
+  },
+  "23": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_A",
+    "question_text": "Explain the working of CSMA/CD protocol. Discuss its advantages and disadvantages.",
+    "id": 23
+  },
+  "24": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_B",
+    "question_text": "What is the purpose of flow control and error control in the Data Link Layer? Describe one mechanism for each.",
+    "id": 24
+  },
+  "25": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_C",
+    "question_text": "Differentiate between Hubs, Switches, and Routers based on their functionality and the OSI layer they operate on.",
+    "id": 25
+  },
+  "26": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_A",
+    "question_text": "Explain the concept of IP addressing. Differentiate between IPv4 and IPv6 in terms of address space and features.",
+    "id": 26
+  },
+  "27": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_B",
+    "question_text": "Describe the routing process in a network. Explain the difference between static and dynamic routing.",
+    "id": 27
+  },
+  "28": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_C",
+    "question_text": "What is NAT? Why is it used? Explain how it works with an example.",
+    "id": 28
+  },
+  "29": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_A",
+    "question_text": "Explain the three-way handshake process in TCP connection establishment.",
+    "id": 29
+  },
+  "30": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_B",
+    "question_text": "What is congestion control in TCP? Describe one congestion control algorithm.",
+    "id": 30
+  },
+  "31": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_C",
+    "question_text": "Differentiate between TCP and UDP based on reliability, connection establishment, and header size.",
+    "id": 31
+  },
+  "32": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_A",
+    "question_text": "Describe the working of DNS. How does it resolve domain names to IP addresses?",
+    "id": 32
+  },
+  "33": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_B",
+    "question_text": "Explain the difference between HTTP and HTTPS. Why is HTTPS preferred for secure communication?",
+    "id": 33
+  },
+  "34": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_C",
+    "question_text": "What are the common application layer protocols? Briefly explain any two of them.",
+    "id": 34
+  },
+  "35": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q6_A",
+    "question_text": "Explain the concept of subnetting. Given an IP address 192.168.1.0/24, how would you create 4 subnets of equal size?",
+    "id": 35
+  },
+  "36": {
+    "date_of_exam": "02/05/24",
+    "type_of_exam": "Endsem",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q6_B",
+    "question_text": "Describe the working principle of a firewall. Differentiate between packet-filtering firewalls and stateful inspection firewalls.",
+    "id": 36
+  },
+  "37": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q1_A",
+    "question_text": "Compare the effects of i. Average filter and Gaussian filter on an image ii. Laplacian filter and Laplacian of Gaussian filter on an image",
+    "id": 37
+  },
+  "38": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q2_A",
+    "question_text": "Consider the following 5x5 binary image: [ 1 1 0 0 0 ] [ 1 1 1 0 0 ] [ 0 1 1 1 0 ] [ 0 0 1 1 1 ] [ 0 0 0 1 1 ] Perform the erosion operation on the image using a 3x3 square structuring element of ones.",
+    "id": 38
+  },
+  "39": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q3_A",
+    "question_text": "i. How do the contrast stretching and gray level transformation processes enhance the image? ii. Suppose an averaging mask is applied to input images to reduce noise, and then a Laplacian mask is applied to enhance small details. Would the result be the same if the order of these operations were reversed?",
+    "id": 39
+  },
+  "40": {
+    "date_of_exam": "29/08/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL308",
+    "subject_name": "Computer Vision Techniques",
+    "question_id": "Q4_A",
+    "question_text": "Determine the first derivative of image enhancement on following 3x3 grayscale image [ 150 155 160 ] [ 158 162 165 ] [ 160 168 170 ] Based on the calculated gradient magnitude and direction, i. What changes would you expect in the pixel intensity values after applying an edge enhancement filter? ii. Which direction would the gradient enhancement affect more (horizontal or vertical)?",
+    "id": 40
+  },
+  "41": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_A",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. Divide the given network into smaller subnets to accommodate different departments with the following host requirements: • Subnet A: 50 hosts • Subnet B: 30 hosts • Subnet C: 10 hosts • Subnet D: 5 hosts",
+    "id": 41
+  },
+  "42": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_B",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. Explain the concept of VLSM and how it benefits IP address allocation compared to fixed-length subnetting.",
+    "id": 42
+  },
+  "43": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_C",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. Using VLSM, calculate the appropriate subnet mask for each department and assign IP address ranges to each subnet, starting with Department A.",
+    "id": 43
+  },
+  "44": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_A",
+    "question_text": "Consider a slotted network with 3 stations using p-persistent CSMA. The probability ‘p’ of transmission in each slot is 0.2 for each station. Determine the probability that no station transmits during a time slot?",
+    "id": 44
+  },
+  "45": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_B",
+    "question_text": "Consider a slotted network with 3 stations using p-persistent CSMA. The probability ‘p’ of transmission in each slot is 0.2 for each station. Determine the probability that exactly one station transmits in a given time slot?",
+    "id": 45
+  },
+  "46": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_C",
+    "question_text": "Determine the probability that two stations transmit simultaneously (collision occurs)?",
+    "id": 46
+  },
+  "47": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_A",
+    "question_text": "You have a network with 4 routers: A, B, C, and D. The initial distances between routers are as follows: A-B: 1. A-C: 5. B-C: 2. C-D: 2. B-D: 8. Determine the routing tables of all the routers after the distance vector routing protocol converges.",
+    "id": 47
+  },
+  "48": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_B",
+    "question_text": "You have a network with 4 routers: A, B, C, and D. The initial distances between routers are as follows: A-B: 1. A-C: 5. B-C: 2. C-D: 2. B-D: 8. After some time, the link between routers B and D fails, and they can no longer communicate directly. Compute the distance vector at router B over several iterations after the failure and observe the \"count-to-infinity\" issue.",
+    "id": 48
+  },
+  "49": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_A",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: * Maximum transmission speed: 100 Mbps (Megabits per second) * Maximum frame size (including header, payload, and trailer): 1518 bytes * Minimum frame size (including header, payload, and trailer): 64 bytes * The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). How many frames are required to transmit the entire file? Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity.",
+    "id": 49
+  },
+  "50": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_B",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: * Maximum transmission speed: 100 Mbps (Megabits per second) * Maximum frame size (including header, payload, and trailer): 1518 bytes * Minimum frame size (including header, payload, and trailer): 64 bytes * The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). What is the total transmission time to send all the frames, including the interframe gap? Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity.",
+    "id": 50
+  },
+  "51": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_C",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: * Maximum transmission speed: 100 Mbps (Megabits per second) * Maximum frame size (including header, payload, and trailer): 1518 bytes * Minimum frame size (including header, payload, and trailer): 64 bytes * The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). If the average frame size is 800 bytes, how much total transmission time would it take to send the entire file with the average frame size instead? Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity.",
+    "id": 51
+  },
+  "52": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_A",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. What types of information are typically stored in a routing table?",
+    "id": 52
+  },
+  "53": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_B",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. Consider a scenario where a router has outdated information in its routing table. What potential issues could arise, and how might these issues affect network performance?",
+    "id": 53
+  },
+  "54": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_C",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. Briefly describe the difference between static routing and dynamic routing with respect to how the routing table is updated.",
+    "id": 54
+  },
+  "55": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_A",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. a. Divide the given network into smaller subnets to accommodate different departments with the following host requirements: • Subnet A: 50 hosts • Subnet B: 30 hosts • Subnet C: 10 hosts • Subnet D: 5 hosts",
+    "id": 55
+  },
+  "56": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_B",
+    "question_text": "b. Explain the concept of VLSM and how it benefits IP address allocation compared to fixed-length subnetting.",
+    "id": 56
+  },
+  "57": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_C",
+    "question_text": "c. Using VLSM, calculate the appropriate subnet mask for each department and assign IP address ranges to each subnet, starting with Department A.",
+    "id": 57
+  },
+  "58": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_A",
+    "question_text": "Consider a slotted network with 3 stations using p-persistent CSMA. The probability 'p' of transmission in each slot is 0.2 for each station. a. Determine the probability that no station transmits during a time slot?",
+    "id": 58
+  },
+  "59": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_B",
+    "question_text": "b. Determine the probability that exactly one station transmits in a given time slot?",
+    "id": 59
+  },
+  "60": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_C",
+    "question_text": "c. Determine the probability that two stations transmit simultaneously (collision occurs)?",
+    "id": 60
+  },
+  "61": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_A",
+    "question_text": "You have a network with 4 routers: A, B, C, and D. The initial distances between routers are as follows: A-B: 1. A-C: 5. B-C: 2. C-D: 2. B-D: 8. a. Determine the routing tables of all the routers after the distance vector routing protocol converges.",
+    "id": 61
+  },
+  "62": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_B",
+    "question_text": "b. After some time, the link between routers B and D fails, and they can no longer communicate directly. Compute the distance vector at router B over several iterations after the failure and observe the \"count-to-infinity\" issue.",
+    "id": 62
+  },
+  "63": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_A",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: • Maximum transmission speed: 100 Mbps (Megabits per second) • Maximum frame size (including header, payload, and trailer): 1518 bytes • Minimum frame size (including header, payload, and trailer): 64 bytes • The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). a. How many frames are required to transmit the entire file?",
+    "id": 63
+  },
+  "64": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_B",
+    "question_text": "b. What is the total transmission time to send all the frames, including the interframe gap?",
+    "id": 64
+  },
+  "65": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_C",
+    "question_text": "c. If the average frame size is 800 bytes, how much total transmission time would it take to send the entire file with the average frame size instead? Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity.",
+    "id": 65
+  },
+  "66": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_A",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. a. What types of information are typically stored in a routing table?",
+    "id": 66
+  },
+  "67": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_B",
+    "question_text": "b. Consider a scenario where a router has outdated information in its routing table. What potential issues could arise, and how might these issues affect network performance?",
+    "id": 67
+  },
+  "68": {
+    "date_of_exam": "8/10/2024",
+    "type_of_exam": "sessional1",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_C",
+    "question_text": "c. Briefly describe the difference between static routing and dynamic routing with respect to how the routing table is updated.",
+    "id": 68
+  },
+  "69": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_A",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. Divide the given network into smaller subnets to accommodate different departments with the following host requirements: * Subnet A: 50 hosts * Subnet B: 30 hosts * Subnet C: 10 hosts * Subnet D: 5 hosts",
+    "id": 69
+  },
+  "70": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_B",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. Explain the concept of VLSM and how it benefits IP address allocation compared to fixed-length subnetting.",
+    "id": 70
+  },
+  "71": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q1_C",
+    "question_text": "In a large enterprise network, the network administrator decides to use Variable Length Subnet Masking (VLSM) to optimize IP address allocation. The network has been assigned the IP block 192.168.1.0/24. Using VLSM, calculate the appropriate subnet mask for each department and assign IP address ranges to each subnet, starting with Department A.",
+    "id": 71
+  },
+  "72": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_A",
+    "question_text": "Consider a slotted network with 3 stations using p-persistent CSMA. The probability 'p' of transmission in each slot is 0.2 for each station. Determine the probability that no station transmits during a time slot?",
+    "id": 72
+  },
+  "73": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q2_B",
+    "question_text": "Consider a slotted network with 3 stations using p-persistent CSMA. The probability 'p' of transmission in each slot is 0.2 for each station. Determine the probability that exactly one station transmits in a given time slot?",
+    "id": 73
+  },
+  "74": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_A",
+    "question_text": "You have a network with 4 routers: A, B, C, and D. The initial distances between routers are as follows: A-B: 1. A-C: 5. B-C: 2. C-D: 2. B-D: 8. Determine the routing tables of all the routers after the distance vector routing protocol converges.",
+    "id": 74
+  },
+  "75": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q3_B",
+    "question_text": "You have a network with 4 routers: A, B, C, and D. The initial distances between routers are as follows: A-B: 1. A-C: 5. B-C: 2. C-D: 2. B-D: 8. After some time, the link between routers B and D fails, and they can no longer communicate directly. Compute the distance vector at router B over several iterations after the failure and observe the \"count-to-infinity\" issue.",
+    "id": 75
+  },
+  "76": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_A",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: * Maximum transmission speed: 100 Mbps (Megabits per second) * Maximum frame size (including header, payload, and trailer): 1518 bytes * Minimum frame size (including header, payload, and trailer): 64 bytes * The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity. How many frames are required to transmit the entire file?",
+    "id": 76
+  },
+  "77": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_B",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: * Maximum transmission speed: 100 Mbps (Megabits per second) * Maximum frame size (including header, payload, and trailer): 1518 bytes * Minimum frame size (including header, payload, and trailer): 64 bytes * The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity. What is the total transmission time to send all the frames, including the interframe gap?",
+    "id": 77
+  },
+  "78": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q4_C",
+    "question_text": "Consider an Ethernet network that follows the IEEE 802.3 standard with the following specifications: * Maximum transmission speed: 100 Mbps (Megabits per second) * Maximum frame size (including header, payload, and trailer): 1518 bytes * Minimum frame size (including header, payload, and trailer): 64 bytes * The interframe gap is 9.6 microseconds (µs). A file of 2 MB (Megabytes) needs to be transmitted over this Ethernet network. Assume that the file is divided into the largest possible Ethernet frames (1518 bytes each). Assumptions: 1 byte = 8 bits. Neglect propagation delay and collisions for simplicity. If the average frame size is 800 bytes, how much total transmission time would it take to send the entire file with the average frame size instead?",
+    "id": 78
+  },
+  "79": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_A",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. What types of information are typically stored in a routing table?",
+    "id": 79
+  },
+  "80": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_B",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. Consider a scenario where a router has outdated information in its routing table. What potential issues could arise, and how might these issues affect network performance?",
+    "id": 80
+  },
+  "81": {
+    "date_of_exam": "08/10/24",
+    "type_of_exam": "sessional2",
+    "paper_code": "CSL302",
+    "subject_name": "Computer Networks",
+    "question_id": "Q5_C",
+    "question_text": "In a large computer network, routers play a crucial role in directing data packets from source to destination. One key component of the router that it relies on is the routing table for making forwarding decisions. Briefly describe the difference between static routing and dynamic routing with respect to how the routing table is updated.",
+    "id": 81
+  }
+}

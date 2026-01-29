@@ -39,11 +39,37 @@ class RAGSearch:
 
     def hybrid_search_and_summarize(self, query: str, alpha: float = 0.7, top_k: int = 5):
         results = self.vectorstore.hybrid_query(query, alpha=alpha, top_k=top_k)
-        texts = [r["metadata"].get("text", "") for r in results if r["metadata"]]
-        context = "\n\n".join(texts)
+        # texts = [r["metadata"].get("text", "") for r in results if r["metadata"]]
+        texts = results
+        # context = "\n\n".join(texts)
+        context = texts
         if not context:
             return "No relevant questions found."
-        prompt = f"Answer based on the following question paper context:\n\n{context}\n\nQuery: {query}\nAnswer:"
+        prompt = f"""
+            You are an expert exam assistant. Use only the below question paper context to answer the user's query clearly and concisely.
+
+            Each context entry represents a real exam question with metadata.
+
+            Context:
+            {{
+            {chr(10).join([
+                f"- [{i+1}] ({c['metadata']['subject_name']} | {c['metadata']['paper_code']} | {c['metadata']['type_of_exam']} on {c['metadata']['date_of_exam']}) "
+                f"QID: {c['metadata']['question_id']} → {c['metadata']['question_text']}"
+                for i, c in enumerate(context)
+            ])}
+            }}
+
+            User Query:
+            {query}
+
+            Instructions:
+            - Identify which one or more context questions are most relevant to the user’s query.
+            - Use only those relevant context questions to form your answer.
+            - Do not invent or assume any new information outside the given context.
+            - If none of the questions are relevant, respond with: "No relevant information found in the given question papers."
+
+            Final Answer:
+            """
         response = self.llm.invoke([prompt])
         return response.content
 
