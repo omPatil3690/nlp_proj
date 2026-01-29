@@ -90,15 +90,18 @@ User Gets Answer + Source Attribution
 ## 📸 Screenshots & Demo
 
 ### Application Interface
-![App Interface - Main Screen](./images/app-interface.png)
+<img width="1912" height="888" alt="image" src="https://github.com/user-attachments/assets/189b247d-0910-4b65-9485-cb5b118eaa3c" />
+
 *Main RAG system interface with API key input and query section*
 
 ### PDF Upload & Processing
-![PDF Upload - Data Ingestion](./images/pdf-upload.png)
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/cdb49255-1809-43af-81de-8e1bc3cfdba8" />
+
 *Uploading and processing PDF documents into the knowledge base*
 
 ### Search Results & AI Response
-![Search Results - Answer Generation](./images/search-results.png)
+<img width="786" height="458" alt="image" src="https://github.com/user-attachments/assets/6b0356ab-a015-4f90-bf1c-3b85f4728131" />
+
 *Hybrid search results with AI-generated contextual answer and source attribution*
 
 ---
