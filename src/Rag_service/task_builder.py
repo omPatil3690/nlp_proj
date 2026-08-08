@@ -200,7 +200,7 @@ Now extract this structured JSON from the following question paper text:
 
 {text}
 """
-        system_msg = SystemMessage("You are a text tagger assistant that returns clean, strict JSON only.")
+        system_msg = SystemMessage("You are a text tagger assistant that returns clean and accurate JSON only(strictly).")
         human_msg = HumanMessage(prompt)
 
         # Use with chat models
