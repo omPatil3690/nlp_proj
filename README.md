@@ -20,6 +20,7 @@ A production-ready **Retrieval-Augmented Generation (RAG) system** that combines
 ## 💡 What It Does
 
 Users can:
+
 1. **Upload PDF documents** → System extracts, chunks, and indexes them
 2. **Ask natural language questions** → Hybrid search retrieves relevant context
 3. **Get AI-powered answers** → Gemini generates responses with source attribution
@@ -30,15 +31,15 @@ Users can:
 
 ## 🚀 Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| **Backend** | Python 3.x |
-| **Vector Database** | FAISS (Facebook AI Similarity Search) |
-| **Keyword Search** | BM25 Algorithm |
-| **LLM** | Google Gemini API |
-| **Frontend** | Streamlit |
-| **Document Processing** | PyPDF2, Text extraction |
-| **NLP** | Embeddings, Semantic chunking |
+| Layer                   | Technology                            |
+| ----------------------- | ------------------------------------- |
+| **Backend**             | Python 3.x                            |
+| **Vector Database**     | FAISS (Facebook AI Similarity Search) |
+| **Keyword Search**      | BM25 Algorithm                        |
+| **LLM**                 | Google Gemini API                     |
+| **Frontend**            | Streamlit                             |
+| **Document Processing** | PyPDF2, Text extraction               |
+| **NLP**                 | Embeddings, Semantic chunking         |
 
 ---
 
@@ -90,25 +91,29 @@ User Gets Answer + Source Attribution
 ## 📸 Screenshots & Demo
 
 ### Application Interface
+
 <img width="1912" height="888" alt="image" src="https://github.com/user-attachments/assets/189b247d-0910-4b65-9485-cb5b118eaa3c" />
 
-*Main RAG system interface with API key input and query section*
+_Main RAG system interface with API key input and query section_
 
 ### PDF Upload & Processing
+
 <img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/cdb49255-1809-43af-81de-8e1bc3cfdba8" />
 
-*Uploading and processing PDF documents into the knowledge base*
+_Uploading and processing PDF documents into the knowledge base_
 
 ### Search Results & AI Response
+
 <img width="786" height="458" alt="image" src="https://github.com/user-attachments/assets/6b0356ab-a015-4f90-bf1c-3b85f4728131" />
 
-*Hybrid search results with AI-generated contextual answer and source attribution*
+_Hybrid search results with AI-generated contextual answer and source attribution_
 
 ---
 
 ## 🚀 Project Setup
 
 ### Prerequisites
+
 - Python 3.8+
 - Google Gemini API key (free at [aistudio.google.com](https://aistudio.google.com/))
 
@@ -122,12 +127,14 @@ cd nlp_proj
 ### Step 2: Create Virtual Environment
 
 **Windows:**
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
 **macOS/Linux:**
+
 ```bash
 python -m venv venv
 source venv/bin/activate
@@ -193,24 +200,28 @@ nlp_proj/
 ## ✨ Features
 
 ### Document Management
+
 - 📤 Upload PDF files directly through UI
 - 🔄 Automatic text extraction and preprocessing
 - ✂️ Intelligent semantic chunking
 - 🧬 Vector embedding generation
 
 ### Search & Retrieval
+
 - 🔍 **Vector Search**: Semantic similarity using FAISS
 - 🔑 **Keyword Search**: BM25-based exact match retrieval
 - 🎯 **Hybrid Ranking**: Combines both signals for optimal results
 - 📊 **Relevance Scoring**: Transparent scoring for each result
 
 ### Answer Generation
+
 - 🤖 **LLM Integration**: Google Gemini API
 - 📖 **Context Awareness**: Answers grounded in retrieved documents
 - 🔗 **Source Attribution**: All answers include source references
 - 💬 **Natural Language**: Conversational, human-like responses
 
 ### User Experience
+
 - 🎨 **Interactive UI**: Clean Streamlit interface
 - 🔑 **Flexible API Key**: User-provided or environment variable
 - ⚠️ **Error Handling**: User-friendly error messages with solutions
@@ -221,39 +232,46 @@ nlp_proj/
 ## 🔧 Key Components
 
 ### `app.py` - Main Application
+
 - Streamlit UI orchestration
 - PDF upload and processing pipeline
 - Query interface and result display
 - API key management with session state
 
 ### `search.py` - Hybrid Search Engine
+
 - Vector similarity search via FAISS
 - Keyword-based retrieval (BM25)
 - Result ranking and fusion algorithm
 - LLM response generation
 
 ### `vectorstore.py` - Vector Database
+
 - FAISS index creation and management
 - Metadata tracking for source attribution
 - Persistent storage and loading
 - Efficient similarity queries
 
 ### `embedding.py` - Embeddings
+
 - Text-to-vector conversion
 - Batch embedding generation
 - Embedding caching and reuse
 
 ### `data_loader.py` - Document Ingestion
+
 - PDF parsing and text extraction
 - Text cleaning and normalization
 - Batch document loading
 
 ### `json_chunker.py` - Document Chunking
+
 - Semantic-aware chunking
 - Token-based splitting
 - Chunk overlap management
 
 ### `task_builder.py` - Prompt Engineering
+
 - Context window construction
 - Prompt template management
 - System prompt optimization
@@ -265,6 +283,7 @@ nlp_proj/
 ### Basic Workflow
 
 1. **Start Application**
+
    ```bash
    cd src/Rag_service
    streamlit run app.py
@@ -280,6 +299,7 @@ nlp_proj/
    - System processes and indexes automatically
 
 4. **Ask Questions**
+
    ```
    Enter: "What are the key concepts in machine learning?"
    System returns: Relevant documents + AI-generated answer
@@ -292,6 +312,7 @@ nlp_proj/
    - Source attribution
 
 ### Example Queries
+
 - "Explain the difference between supervised and unsupervised learning"
 - "What is attention mechanism in transformers?"
 - "Summarize the document's main findings"
@@ -301,16 +322,19 @@ nlp_proj/
 ## 🎓 How Hybrid Search Improves Results
 
 **Pure Vector Search** ❌
+
 - Misses exact phrase matches
 - Struggles with domain-specific terminology
 - Slow for large collections
 
 **Pure Keyword Search** ❌
+
 - Ignores semantic meaning
 - Returns irrelevant exact matches
 - Poor handling of synonyms
 
 **Hybrid Search** ✅
+
 - Combines semantic understanding with exact matching
 - Handles domain terminology through both paths
 - Better ranking through combined scores
@@ -321,6 +345,7 @@ nlp_proj/
 ## 🚀 Deployment
 
 ### Option 1: Streamlit Cloud (Recommended)
+
 ```bash
 # Push to GitHub
 git push origin main
@@ -332,6 +357,7 @@ git push origin main
 ```
 
 ### Option 2: Docker
+
 ```bash
 # Build image
 docker build -t hybrid-rag .
@@ -341,6 +367,7 @@ docker run -e GOOGLE_API_KEY="your_key" -p 8501:8501 hybrid-rag
 ```
 
 ### Option 3: Heroku
+
 ```bash
 heroku create your-app-name
 heroku config:set GOOGLE_API_KEY="your_key"
@@ -371,6 +398,7 @@ git push heroku main
 ## 🛠️ Development
 
 ### Running Tests
+
 ```bash
 cd src/Rag_service
 python test.py
@@ -378,6 +406,7 @@ python test2.py
 ```
 
 ### Adding New Documents
+
 ```python
 from data_loader import DataLoader
 loader = DataLoader()
@@ -385,6 +414,7 @@ documents = loader.load_pdfs("path/to/pdfs")
 ```
 
 ### Customizing Search Parameters
+
 ```python
 # In search.py
 results = rag_search.hybrid_search(
@@ -414,21 +444,25 @@ See `requirements.txt` for complete list.
 ## 🆘 Troubleshooting
 
 ### "API Key Invalid"
+
 - ✅ Get new key from https://aistudio.google.com/
 - ✅ Check for extra spaces when pasting
 - ✅ Update key in app interface
 
 ### "FAISS Index Not Found"
+
 - ✅ Upload PDF documents first
 - ✅ Check `faiss_store/` directory exists
 - ✅ Run data ingestion workflow
 
 ### "Port 8501 Already in Use"
+
 ```bash
 streamlit run app.py --server.port 8502
 ```
 
 ### "PDF Processing Error"
+
 - ✅ Ensure PDF is not corrupted
 - ✅ Check API quota hasn't been exceeded
 - ✅ Try with a smaller PDF file
@@ -454,17 +488,10 @@ IIIT Nagpur - 5th Semester NLP Project
 
 ---
 
-## 👨‍💻 Author
-
-**Sandesh Lavshetty**
-- IIIT Nagpur, 3rd Year, 5th Semester
-- [GitHub](https://github.com/sandeshlavshetty)
-
----
-
 ## 🤝 Contributing
 
 Found a bug? Have an idea? Feel free to:
+
 - Open an issue
 - Submit a pull request
 - Suggest improvements
