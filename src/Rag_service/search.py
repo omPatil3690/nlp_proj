@@ -1,9 +1,16 @@
 import os
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    load_dotenv = None
 from vectorstore import FaissVectorStore
 # from langchain_groq import ChatGroq
 from langchain_google_genai import ChatGoogleGenerativeAI
-load_dotenv()
+
+if load_dotenv:
+    load_dotenv()
+else:
+    print("[WARN] python-dotenv is not installed; environment variables will be read from the system environment.")
 
 class RAGSearch:
     def __init__(self, persist_dir: str = "faiss_store", embedding_model: str = "all-MiniLM-L6-v2", llm_model: str = "gemma2-9b-it"):

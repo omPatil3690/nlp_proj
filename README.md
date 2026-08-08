@@ -121,7 +121,7 @@ _Hybrid search results with AI-generated contextual answer and source attributio
 
 ```bash
 git clone <repository_url>
-cd nlp_proj
+cd ExamInsight-AI
 ```
 
 ### Step 2: Create Virtual Environment

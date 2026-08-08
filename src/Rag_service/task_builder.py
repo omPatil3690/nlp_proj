@@ -1,7 +1,10 @@
 # import ollama
 import os
 from urllib import response
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    load_dotenv = None
 from langchain_google_genai import ChatGoogleGenerativeAI
 try:
     from google import genai
@@ -23,7 +26,11 @@ import os
 from PIL import Image
 import io
 
-load_dotenv()
+if load_dotenv:
+    load_dotenv()
+else:
+    print("[WARN] python-dotenv is not installed; environment variables will be read from the system environment.")
+
 class LLMtool:
     def __init__(self, llm_model: str = "gemini-2.5-flash"):
         self.llm_model = llm_model
