@@ -1,4 +1,4 @@
-# 🧠 Hybrid Search RAG System
+# Hybrid Search RAG System
 
 **LLM-powered document Q&A using vector + keyword retrieval**
 
@@ -6,7 +6,7 @@ A production-ready **Retrieval-Augmented Generation (RAG) system** that combines
 
 ---
 
-## 🎯 Key Highlights
+## Key Highlights
 
 - ✅ **Hybrid Search Pipeline**: Combines vector similarity (FAISS) + keyword matching (BM25) for superior relevance
 - ✅ **Intelligent Document Processing**: Automatic PDF ingestion, chunking, embedding, and indexing
@@ -17,7 +17,7 @@ A production-ready **Retrieval-Augmented Generation (RAG) system** that combines
 
 ---
 
-## 💡 What It Does
+## What It Does
 
 Users can:
 
@@ -43,7 +43,7 @@ Users can:
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Architecture](#architecture)
 - [Project Setup](#project-setup)
@@ -56,7 +56,7 @@ Users can:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Query
@@ -88,7 +88,7 @@ User Gets Answer + Source Attribution
 
 ---
 
-## 📸 Screenshots & Demo
+## Screenshots & Demo
 
 ### Application Interface
 
@@ -110,7 +110,7 @@ _Hybrid search results with AI-generated contextual answer and source attributio
 
 ---
 
-## 🚀 Project Setup
+## Project Setup
 
 ### Prerequisites
 
